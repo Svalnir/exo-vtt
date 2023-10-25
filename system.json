@@ -14,15 +14,20 @@
       {
         "name": "Svalnir",
         "url": "",
+            "email": "fionnmaccumhailgames@gmail.com",
+            "discord": "svalnirsvalnirsson"
         "flags": {}
       }
     ],
     "esmodules": [
-      "exo3464.mjs"
+      "scripts/exo3464.mjs"
     ],
     "styles": [
-      "exo3464.css"
+      "styles/exo3464.css"
     ],
+    "scripts":[
+      "scripts/system-scripts.js"
+    ]
     "packs": [
       {
         "name": "objetos",
@@ -145,12 +150,9 @@
         "flags": {}
       }
     ],
-    "socket": true,
-    "gridDistance": 5,
-    "gridUnits": "ft",
-    "primaryTokenAttribute": "attributes.hp",
-    "flags": {
-      "needsMigrationVersion": "2.3.0",
-      "compatibleMigrationVersion": "0.8"
-    }
+    "socket": false,
+    "gridDistance": 3,
+    "gridUnits": "m",
+    "primaryTokenAttribute": "resources.puntosdevida",
+    "secondaryTokenAttribute": "resources.puntosdemente"
   }
